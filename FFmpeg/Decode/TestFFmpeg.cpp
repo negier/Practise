@@ -4,7 +4,7 @@
  *                 |                               |- AVCodecContext
  * AVFormatContext-|-AVStream[0]-AVCodecParameters-|
  *                 |                               |- AVCodec
- *	               |      
+ *	           |      
  *                 |                               |- AVCodecContext
  *                 |-AVStream[1]-AVCodecParameters-|
  *                                                 |- AVCodec
