@@ -4,7 +4,7 @@ SDL播放YUV 420文件
 
 windows
 
-**SDL version:*2.0.10**
+** SDL version:2.0.10 **
 
 [主要代码查看](https://github.com/negier/Practise/blob/master/SDL/YUVPLAY/TestSDL.cpp)
 
