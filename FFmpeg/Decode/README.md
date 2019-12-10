@@ -9,7 +9,7 @@ Windows Visual Studio项目
 [点击查看核心代码](https://github.com/negier/Practise/blob/master/FFmpeg/Decode/TestFFmpeg.cpp)
 
 **YUV**
-[YUV的组成](https://github.com/negier/Practise/blob/master/FFmpeg/Decode/YUV.png)
+![YUV的组成](https://github.com/negier/Practise/blob/master/FFmpeg/Decode/YUV.png)
 
 ## Visual Studio配置
 将相关的include、lib、dll文件放在项目的目录里。inlude和lib需要配置，dll不用。
