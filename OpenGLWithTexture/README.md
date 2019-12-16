@@ -30,8 +30,15 @@
 ## 坐标
 **opengl 物理坐标**
 ![](https://github.com/negier/Practise/blob/master/OpenGLWithTexture/Image%202.png)
+
 **opengl 纹理坐标**
+
 ![](https://github.com/negier/Practise/blob/master/OpenGLWithTexture/Texture.png)
 
 ## 顶点着色器、片元着色器
 一句话总结：”Vertex Shader负责搞定像素位置，填写gl_Position;Fragment Shader负责搞定像素外观，填写gl_FragColor。“
+
+![](https://github.com/negier/Practise/blob/master/OpenGLWithTexture/vertex_shader.webp)
+
+![](https://github.com/negier/Practise/blob/master/OpenGLWithTexture/fragment_shader.webp)
+
