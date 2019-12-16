@@ -1,6 +1,8 @@
 # OpenGL With Texture
 使用OpenGL的Texture播放视频画面，即用GPU来进行YUV到RGB的转变
 
+[核心代码查看](https://github.com/negier/Practise/blob/master/OpenGLWithTexture/OpenGLWithTexture.cpp)
+
 ## 流程
 1. 初始化
 2. 创建窗口
