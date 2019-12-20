@@ -23,8 +23,8 @@ void main() {
  	
  	// 采样出YUV
  	float y = texture2D(sTexture_y, vTextureCoord).r;
-    float u = texture2D(sTexture_u, vTextureCoord).r;
-    float v = texture2D(sTexture_v, vTextureCoord).r;
+    	float u = texture2D(sTexture_u, vTextureCoord).r;
+    	float v = texture2D(sTexture_v, vTextureCoord).r;
 	// 转码公式
 	getRgbByYuv(y, u, v, r, g, b);
 	
