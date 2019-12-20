@@ -144,9 +144,9 @@ void InitShaders()
 	glUseProgram(p);
 
 	// 从GLSL源码中获取Uniform变量位置
-	textureUniformY = glGetUniformLocation(p, "tex_y");
-	textureUniformU = glGetUniformLocation(p, "tex_u");
-	textureUniformV = glGetUniformLocation(p, "tex_v");
+	textureUniformY = glGetUniformLocation(p, "sTexture_y");
+	textureUniformU = glGetUniformLocation(p, "sTexture_u");
+	textureUniformV = glGetUniformLocation(p, "sTexture_v");
 
 	// 物体坐标（左下，右下，左上，右上）
 #if TEXTURE_ROTATE
