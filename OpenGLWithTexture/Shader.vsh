@@ -1,8 +1,8 @@
 attribute vec4 vertexIn; 
 attribute vec2 textureIn;
-varying vec2 textureOut;
+varying vec2 vTextureCoord;
 void main(void)
 {
     gl_Position = vertexIn; 
-    textureOut = textureIn;
+    vTextureCoord = textureIn;
 }
